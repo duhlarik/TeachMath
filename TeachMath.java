@@ -31,11 +31,11 @@ public class TeachMath {
 				if (operator == ('*')) {
 					answer = x * y;
 				} else if (operator == ('/')) {
-					answer = x / y;
+					answer = y / x;
 				} else if (operator == ('+')) {
 					answer = x + y;
 				} else {
-					answer = x - y;
+					answer = y - x;
 				}
 				s.push(answer);
 				break;
